@@ -1,0 +1,102 @@
+<!--
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<title>Browser</title>
+</head>
+
+<body>
+<div id="main">
+<header>
+<h1 id="title">JM GENERAL MERCHANDISE SURVEY FORM</h1>
+<p id="description">Survey Form for User Stories</p>
+</header>
+<main>
+<form id="survey-form" method="GET" action="#">
+<div class="bottom-top-padding">
+<div class="label-div">
+<label id="name-label" for="name">Name: </label>
+</div>
+<div class="input-div">
+<input id="name" class="input-text" type="text" placeholder="Enter Name" required>
+</div>
+</div>
+<div class="bottom-top-padding">
+<div class="label-div">
+<label id="email-label" for="email">E-mail: </label>
+</div>
+<div class="input-div">
+<input id="email" class="input-text" type="email" placeholder="Enter E-Mail" required></div>
+</div>
+<div class="bottom-top-padding">
+<div class="label-div">
+<label id="number-label" for="number">Employment History: </label>
+</div>
+<div class="input-div">
+<input id="number" class="input-text" min="0" max="80" type="number" placeholder="Input the number">
+</div>
+</div>
+<div class="bottom-top-padding">
+<div class="label-div">
+<label for="dropdown">Do you feel comfortable making real estate investments on platforms without conducting thorough research first?</label>
+</div>
+<div class="input-div">
+<select id="dropdown" type="dropdown">
+<option>Yes</option>
+<option>No</option>
+<option>Maybe</option>
+</select>
+</div>
+</div>
+<div class="bottom-top-padding">
+<div class="label-div">
+<label>Ideas for creating a reliable platform</label>
+</div>
+<div class="input-div">
+<textarea type="text"></textarea>
+</div>
+</div>
+<div class="bottom-top-padding">
+<div class="label-div">
+<label>You're prepared to make a purchase:</label>
+</div>
+<div id="" class="input-div">
+<label for="Actual-Property"><input id="Actual-Property" type="checkbox" name="Actual-Property" value="Actual-Property">Actual Property</label>
+</br>
+<label for="Mutual-Money"><input id="Mutual-Money" type="checkbox" name="Mutual-Money" value="Mutual-Money">Mutual Money</label>
+</br>
+<label for="crypto"><input id="crypto" type="checkbox" name="crypto" value="crypto">Virtual Money</label>
+</br>
+<label for="stocks"><input id="stocks" type="checkbox" name="stocks" value="stocks"> Stocks & Bonds</label>
+</br>
+</div>
+</div>
+<div class="bottom-top-padding">
+<div class="label-div">
+<label>Are you prepared for more communication?</label>
+</div>
+<div class="">
+<label>
+<input type="radio" name="data" value="yes">Yes
+</label>
+</br>
+<label>
+<input type="radio" name="data" value="no">No
+</label>
+</div>
+</div>
+<div id="submit-div">
+<button id="submit">Submit</button>
+</div>
+</form>
+</main>
+</div>
+</body>
+
+</html>
